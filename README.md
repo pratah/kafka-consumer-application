@@ -5,7 +5,7 @@ README.md
 ## Table of contents
 1. [Project Structure](#project-structure)
 2. [Download and set up the Confluent CLI](#download-and-set-up-the-confluent-cli) 
-3. [Creating a topic](#creating-a-topic) 
+3. [Connect to your Confluent Cloud Cluster](#connect-to-your-confluent -cloud-cluster) 
 4. [Adding Graddle](#adding-graddle) 
 5. [Unix Commands Reference table](#unix-commands-reference-table)
 
@@ -27,15 +27,11 @@ By now we should have the following structure:
 <p>
 To install Confluent CLI run the following command <code>brew install confluentinc/tap/cli</code>
 
-<p>If you don't have Homebrew already installed you can do so by going here https://brew.sh/ </p>
-
-
-If you are using Apple designed chips you may be require to add Homebrew to your <code>$PATH</code> and to do so type <code>vim .bash_profile</code> and add the lines given to you at the end of the installation process.
-
-Install Confluent CLI by running <code>brew install confluentinc/tap/cli</code> and confirm if the installation was successful by running <code>confluent --version</code>, you should get something like <code>confluent version v3.64.0</code> as an output.
+<p>If you don't have Homebrew already installed you can do so by going here https://brew.sh/ . </p>
 </p>
 
-<p>
+### Connect to your Confluent Cloud Cluster
+
 Let us connect to our Confluent Cloud by running <code>confluent login --save</code> the <code>-- save</code> is just a flag and will save your credentials and log you back in if session expires.
 
 We are now connected and in order to view a list of active environments run <code>confluent environment list</code>.
