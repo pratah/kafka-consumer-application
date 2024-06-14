@@ -5,7 +5,7 @@ README.md
 ## Table of contents
 1. [Project Structure](#project-structure)
 2. [Download and set up the Confluent CLI](#download-and-set-up-the-confluent-cli) 
-3. [Connect to your Confluent Cloud Cluster](#connect-to-your-confluent -cloud-cluster) 
+3. [Connect to your cluster](#connect-to-your-cluster) 
 4. [Adding Graddle](#adding-graddle) 
 5. [Unix Commands Reference table](#unix-commands-reference-table)
 
@@ -30,7 +30,7 @@ To install Confluent CLI run the following command <code>brew install confluenti
 <p>If you don't have Homebrew already installed you can do so by going here https://brew.sh/ . </p>
 </p>
 
-### Connect to your Confluent Cloud Cluster
+### Connect to your cluster
 
 Let us connect to our Confluent Cloud by running <code>confluent login --save</code> the <code>-- save</code> is just a flag and will save your credentials and log you back in if session expires.
 
