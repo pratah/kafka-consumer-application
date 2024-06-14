@@ -6,7 +6,7 @@ README.md
 1. [Project Structure](#project-structure)
 2. [Download and set up the Confluent CLI](#download-and-set-up-the-confluent-cli) 
 3. [Connect to your cluster](#connect-to-your-cluster) 
-4. [Adding Graddle](#adding-graddle) 
+4. [Configuring the project](#configuring-the-project) 
 5. [Unix Commands Reference table](#unix-commands-reference-table)
 
 ---
@@ -44,17 +44,33 @@ Select the appropriate cluster by running <code> confluent kafka cluster use `<c
 
 If you created your API key using the CLI on another machine or using the UI you need to store it by runnig <code>api-key store `<api-key>` `<api-secret>` --resource `<resource-id>`</code> 
 
-If by any chance one was already stored previously we need to ooverride it by using the <code>--force</code> flag at the end of your command <code>api-key store `<api-key>` `<api-secret>` --resource `<resource-id>` `--force`</code>
+If by any chance one was already stored previously we need to ooverride it by using the <code>--force</code> flag at the end of your command <code>api-key store `<api-key>` `<api-secret>` --resource `<resource-id>` `--force`</code> .
 
 Finnaly set API key to use by running <code>confluent api-key use `<api-key>` </code> and you can now run the Confluent CLI commands against the specified cluster.
 
 </p>
 
 ### Creating a topic
+<p>
+If you already have a topic already created you can view it by running <code>confluent kafka topic list</code> .
+</p>
 
+### Configuring the project
+<p>
+Create the following file <code>build.gradle</code> inside the root of your directory.
 
+So by now we should have the following structure:
+> ├── build.gradle
+> ├── configuration
+> <br> &nbsp;&nbsp;&nbsp;&nbsp;│   └── ccloud.properties
+> ├── gradle
+> <br> &nbsp;&nbsp;&nbsp;&nbsp;│   └── wrapper
+> <br> &nbsp;&nbsp;&nbsp;&nbsp;│       ├── gradle-wrapper.jar
+> <br> &nbsp;&nbsp;&nbsp;&nbsp;│       └── gradle-wrapper.properties
+> ├── gradlew
+> └── gradlew.bat
 
-### Adding Graddle
+</p>
 
 
 
