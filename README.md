@@ -36,10 +36,12 @@ Let us connect to our Confluent Cloud by running <code>confluent login --save</c
 
 We are now connected and in order to view a list of active environments run <code>confluent environment list</code>.
 
-Select our environment by running <code>confluent environment use `<env-id>` </code>.
+Select the environment by running <code>confluent environment use `<env-id>` </code>.
 
-Get the cluster ID previously created at the beginning of the lab by running <code>confluent kafka cluster list</code>
-Do not create another API key as we cannot override the one we created when we first instantiated our cluster.
+Get the cluster ID previously created at the beginning of the lab by running <code>confluent kafka cluster list</code>.
+
+<p>Select the appropriate cluster by running <code> confluent kafka cluster use `<cluster-id>` </code> </p>
+
 </p>
 
 ### Creating a topic
