@@ -20,7 +20,7 @@ README.md
 By now we should have the following structure:
 
 > └── configuration
-> <br> &nbsp;    └── ccloud.properties
+> <br> &nbsp;&nbsp;&nbsp;&nbsp;    └── ccloud.properties
 </p>
 <p>Moving on let us create our project structure, we will interact with the terminal by issuing a few commands which will be explained as we move forward:
 <ol>
