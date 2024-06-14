@@ -27,7 +27,7 @@ By now we should have the following structure:
 <p>
 To install Confluent CLI run the following command <code>brew install confluentinc/tap/cli</code>
 
-<p>If you don't have Homebrew already installed you can do so by going here (https://brew.sh/) </p>
+<p>If you don't have Homebrew already installed you can do so by going here https://brew.sh/ </p>
 
 
 If you are using Apple designed chips you may be require to add Homebrew to your <code>$PATH</code> and to do so type <code>vim .bash_profile</code> and add the lines given to you at the end of the installation process.
