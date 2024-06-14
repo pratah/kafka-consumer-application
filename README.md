@@ -16,6 +16,11 @@ README.md
 
 <p>Copy the cluster information and paste in a file called <code>ccloud.properties</code> inside the configuration folder.</p> <br>
 
+<p>
+By now we should have the following structure:
+└── configuration
+    └── ccloud.properties
+</p>
 <p>Moving on let us create our project structure, we will interact with the terminal by issuing a few commands which will be explained as we move forward:
 <ol>
   <li>Create a directory to store our project by running <code>mkdir kafka-consumer-application</code></li>
