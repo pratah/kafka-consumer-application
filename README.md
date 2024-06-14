@@ -58,18 +58,6 @@ If you already have a topic already created you can view it by running <code>con
 ### Configuring the project
 <p>
 Create the following file <code>build.gradle</code> inside the root of your directory.
-
-So by now we should have the following structure:
-> ├── build.gradle
-> ├── configuration
-> <br> &nbsp;&nbsp;&nbsp;&nbsp;│   └── ccloud.properties
-> ├── gradle
-> <br> &nbsp;&nbsp;&nbsp;&nbsp;│   └── wrapper
-> <br> &nbsp;&nbsp;&nbsp;&nbsp;│       ├── gradle-wrapper.jar
-> <br> &nbsp;&nbsp;&nbsp;&nbsp;│       └── gradle-wrapper.properties
-> ├── gradlew
-> └── gradlew.bat
-
 </p>
 
 
