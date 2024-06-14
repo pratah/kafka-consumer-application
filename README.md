@@ -13,7 +13,8 @@ README.md
 
 ### Project Structure
 <p> Let us create our project structure by initializing a directory called <code>kafka-consumer-application</code> and moving into it.
-> mkdir kafka-consumer-application && cd kafka-consumer-application
+* Run the command below:
+    > <code> mkdir kafka-consumer-application && cd kafka-consumer-application </code>
  <br></p> <br>
 
 <p> To achieve that head over to the Environments section, select yours and go through the cluster creation steps.  </p> <br>
