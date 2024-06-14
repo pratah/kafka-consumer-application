@@ -25,7 +25,7 @@ By now we should have the following structure:
 
 ### Download and set up the Confluent CLI
 <p>
-For more details on how to install the Confluent CLI please [here] ((https://docs.confluent.io/confluent-cli/current/install.html?_ga=2.196818856.565561177.1718183721-1662000784.1717059929&_gac=1.92423535.1718010721.CjwKCAjwyJqzBhBaEiwAWDRJVFr3D0qEoS3sxNaz6TgKgYp2BNiEUFNnugXTk8AiZ1joe9YFBp2AJxoCnhEQAvD_BwE&_gl=1*ruge5s*_gcl_aw*R0NMLjE3MTgxODM3MjEuQ2p3S0NBandqcVd6QmhBcUVpd0FRbXRnVDBvY3N0V2FreE9lbGV4dEUwRTR6WXUyQWYyeExMVVJCcUo2RFBkT3Fzd09Vdm9hNHdyTW54b0NZTUFRQXZEX0J3RQ..*_gcl_au*OTI1NTI4MjMyLjE3MTcwNTk5Mjk.*_ga*MTY2MjAwMDc4NC4xNzE3MDU5OTI5*_ga_D2D3EGKSGD*MTcxODMwNDU5Ni4zMi4wLjE3MTgzMDQ1OTYuNjAuMC4w))
+To install COnfluent CLI run the following command `brew install confluentinc/tap/cli`
 
 
 
