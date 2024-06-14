@@ -46,6 +46,8 @@ If you created your API key using the CLI on another machine or using the UI you
 
 If by any chance one was already stored previously we need to ooverride it by using the <code>--force</code> flag at the end of your command <code>api-key store `<api-key>` `<api-secret>` --resource `<resource-id>` `--force`</code>
 
+Finnaly set API key to use by running <code>confluent api-key use `<api-key>` </code> and you can now run the Confluent CLI commands against the specified cluster.
+
 </p>
 
 ### Creating a topic
