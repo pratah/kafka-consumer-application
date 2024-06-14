@@ -40,7 +40,11 @@ Select the environment by running <code>confluent environment use `<env-id>` </c
 
 Get the cluster ID previously created at the beginning of the lab by running <code>confluent kafka cluster list</code>.
 
-Select the appropriate cluster by running <code> confluent kafka cluster use `<cluster-id>` </code>
+Select the appropriate cluster by running <code> confluent kafka cluster use `<cluster-id>` </code> .
+
+If you created your API key using the CLI on another machine or using the UI you need to store it by runnig <code>api-key store `<api-key>` `<api-secret>` --resource `<resource-id>`</code> 
+
+If by any chance one was already stored previously we need to overwrite it by using the <code>--force</code> flag at the end of your command <code>api-key store `<api-key>` `<api-secret>` --resource `<resource-id>` `--force`</code>
 
 </p>
 
