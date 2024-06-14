@@ -40,7 +40,7 @@ Select the environment by running <code>confluent environment use `<env-id>` </c
 
 Get the cluster ID previously created at the beginning of the lab by running <code>confluent kafka cluster list</code>.
 
-<p>Select the appropriate cluster by running <code> confluent kafka cluster use `<cluster-id>` </code> </p>
+Select the appropriate cluster by running <code> confluent kafka cluster use `<cluster-id>` </code>
 
 </p>
 
