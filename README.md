@@ -22,30 +22,12 @@ By now we should have the following structure:
 > └── configuration
 > <br> &nbsp;&nbsp;&nbsp;&nbsp;    └── ccloud.properties
 </p>
-<p>Moving on let us create our project structure, we will interact with the terminal by issuing a few commands which will be explained as we move forward:
-<ol>
-  <li>Create a directory to store our project by running <code>mkdir kafka-consumer-application</code></li>
-  <li>Next move into the above created directory by running <code>cd kafka-consumer-application</code></li>
-  <li>Now that we are inside our main directory and we will create a new directory by running <code>mkdir configuration</code></li>
-</ol>  
-</p> <br>
-
-<p>
-Fom within Confluent Cloud navigate to the kafka previously created and perform the below tasks:
-<ol>
-  <li>Clients from the left hand navigation pannel</li>
-  <li>Select New Client</li>
-  <li>Choose Java</li>
-  <li>Give your topic a name</li>
-  <li>Download the kafka API key, copy the configuraton file generated right next to it and paste in a file called <code>ccloud.properties</code> inside the configuration directory created earlier.</li>
-</ol>  
-</p>
 
 ### Download and set up the Confluent CLI
 <p>
-In order to download the Confluent CLI the easiest option is to use Homebrew as it simplifies software installation.
+For more details on how to install the Confluent CLI please [here](https://docs.confluent.io/confluent-cli/current/install.html?_ga=2.196818856.565561177.1718183721-1662000784.1717059929&_gac=1.92423535.1718010721.CjwKCAjwyJqzBhBaEiwAWDRJVFr3D0qEoS3sxNaz6TgKgYp2BNiEUFNnugXTk8AiZ1joe9YFBp2AJxoCnhEQAvD_BwE&_gl=1*ruge5s*_gcl_aw*R0NMLjE3MTgxODM3MjEuQ2p3S0NBandqcVd6QmhBcUVpd0FRbXRnVDBvY3N0V2FreE9lbGV4dEUwRTR6WXUyQWYyeExMVVJCcUo2RFBkT3Fzd09Vdm9hNHdyTW54b0NZTUFRQXZEX0J3RQ..*_gcl_au*OTI1NTI4MjMyLjE3MTcwNTk5Mjk.*_ga*MTY2MjAwMDc4NC4xNzE3MDU5OTI5*_ga_D2D3EGKSGD*MTcxODMwNDU5Ni4zMi4wLjE3MTgzMDQ1OTYuNjAuMC4w)
 
-From the terminal run <code> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" </code>
+
 
 If you are using Apple designed chips you may be require to add Homebrew to your <code>$PATH</code> and to do so type <code>vim .bash_profile</code> and add the lines given to you at the end of the installation process.
 
