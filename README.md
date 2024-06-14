@@ -13,7 +13,7 @@ README.md
 
 ### Project Structure
 <p> Let us create our project structure by initializing a directory called <code>kafka-consumer-application</code> and moving into it.
-<p> * Run the command below:
+<p> *Run the command below:
     > <code> mkdir kafka-consumer-application && cd kafka-consumer-application </code> </p>
  <br></p> <br>
 
