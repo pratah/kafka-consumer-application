@@ -15,7 +15,7 @@ README.md
 <p> Let us create our project structure by initializing a directory called <code>kafka-consumer-application</code> and moving into it.<br> <p></p> Run the following command: <code> mkdir kafka-consumer-application && cd kafka-consumer-application </code> </p>
 <br></p> <br>
 
-<p> To achieve that head over to the Environments section, select yours and go through the cluster creation steps.  </p> <br>
+<p>Copy the cluster information and paste in a file called <code>ccloud.properties</code> inside the configuration folder.</p> <br>
 
 <p>Moving on let us create our project structure, we will interact with the terminal by issuing a few commands which will be explained as we move forward:
 <ol>
